@@ -14,12 +14,15 @@ box-sizing: border-box;
 --font-family: "Poppins", sans-serif;
 
 --text-sm: 12px/170% var(--font-family);
---text: ;
+--text: 16px/1.5 var(--font-family);
 --text-md: 14px/175% var(--font-family);
 --text-lg: bold 32px/125% var(--font-family);
 }
 
 body {
+  font: var(--text);
   color: var(--text-color-secondary);
   background-color: var(--background-color);
 }
+
+
